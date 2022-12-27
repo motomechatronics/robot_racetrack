@@ -6,11 +6,24 @@ inside the package:
 
 git status
 
-git add to move the files from untracked to change to be committed
+git add  # to move the files from untracked to change to be committed
+git add . # to move all the files at the some time
 
 git commit -m "write a note"
 
 git status
 
-git log
+git log 
+or 
+git log --oneline
+
+git diff
+git diff --staged
+
+git commit --amend # to change changes at the same last commit. If you want make changes only on the code and to mantain the
+                   # same commit message use git commit --amend --no-edit
+
+git commit --amend --no-edit
+
+To move around in a project's Git timeline, use the git checkout command.
 
