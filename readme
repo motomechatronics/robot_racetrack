@@ -27,3 +27,6 @@ git commit --amend --no-edit
 
 To move around in a project's Git timeline, use the git checkout command.
 
+git branch # list all the branches
+git branch <branch name>  # set new branches
+git switch <branch_name>
