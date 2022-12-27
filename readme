@@ -1,0 +1,12 @@
+terminal
+git config --global user.name "Salvatore Volpe"
+git config --global user.email "salvatore.volpe@mtmt.it"
+inside the package:
+    git Init 
+
+git status
+
+git add
+
+git status
+
