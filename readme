@@ -6,7 +6,11 @@ inside the package:
 
 git status
 
-git add
+git add to move the files from untracked to change to be committed
+
+git commit -m "write a note"
 
 git status
+
+git log
 
