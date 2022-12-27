@@ -27,6 +27,7 @@ git commit --amend --no-edit
 
 To move around in a project's Git timeline, use the git checkout command.
 
+
 git log master..basic-user-interface
 git diff master..basic-user-interface
 
@@ -34,3 +35,8 @@ rename a branch
 git branch -m <old_branch_name> <new_branch_name>
 
 git merge <branch_name> 
+
+git branch # list all the branches
+git branch <branch name>  # set new branches
+git switch <branch_name>
+
